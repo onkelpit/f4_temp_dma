@@ -18,11 +18,5 @@ jobs:
       uses: fiam/arm-none-eabi-gcc@v1
       with:
           release: '10-2020-q4'
-    - name: configure
-      run: ./configure
     - name: make
       run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
